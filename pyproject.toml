@@ -5,8 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.0.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
+    "regex>=2025.9.1",
+    "streamlit>=1.49.1",
     "torch>=2.8.0",
 ]
