@@ -1214,6 +1214,7 @@ dependencies = [
     { name = "regex" },
     { name = "streamlit" },
     { name = "torch" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -1225,6 +1226,7 @@ requires-dist = [
     { name = "regex", specifier = ">=2025.9.1" },
     { name = "streamlit", specifier = ">=1.49.1" },
     { name = "torch", specifier = ">=2.8.0" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]
