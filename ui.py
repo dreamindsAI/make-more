@@ -37,6 +37,7 @@ if st.button("Tokenize") and user_text.strip():
 
     for t in tokens:
         label = decode_token_id(t)
+        print(label)
         hue = (t * 37) % 360
         color = f"hsl({hue}, 70%, 80%)"
 
